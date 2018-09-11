@@ -11,7 +11,7 @@
   ],
   "require": {
     "php": ">=7.1",
-    "symfony/framework-bundle": "^3.0 || ^4.0",
+    "symfony/framework-bundle": "^4.0",
     "twig/twig": "^2.0",
     "jongotlin/swedish-name-days": "^1.0"
   },
