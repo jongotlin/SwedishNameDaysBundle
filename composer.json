@@ -1,0 +1,23 @@
+{
+  "name": "jongotlin/swedish-name-days-bundle",
+  "description": "Symfony bundle for swedish name days (Svenska namnsdagar)",
+  "keywords": ["symfony"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jon Gotlin",
+      "email": "jon@jon.se"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "symfony/framework-bundle": "^3.0 || ^4.0",
+    "twig/twig": "^2.0",
+    "jongotlin/swedish-name-days": "^1.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  }
+}
