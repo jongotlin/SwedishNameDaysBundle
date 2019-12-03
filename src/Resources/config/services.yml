@@ -1,5 +1,0 @@
-services:
-    JGI\SwedishNameDaysBundle\Twig\TwigExtensions:
-        class: JGI\SwedishNameDaysBundle\Twig\TwigExtensions
-        tags:
-            - { name: twig.extension }
