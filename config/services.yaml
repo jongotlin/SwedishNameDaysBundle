@@ -1,0 +1,8 @@
+services:
+  JGI\SwedishNameDaysBundle\Twig\SwedishNameDaysExtension:
+    autowire: true
+    tags:
+      - { name: twig.extension }
+
+  JGI\NameDay\NameDay:
+    class: JGI\NameDay\NameDay
