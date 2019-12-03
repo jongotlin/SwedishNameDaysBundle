@@ -38,3 +38,10 @@ return [
     JGI\SwedishNameDaysBundle\JGISwedishNameDaysBundle::class => ['all' => true],
 ];
 ```
+### Step 3: Use the Bundle
+
+```twig
+{{ myDate|names|join(', ') }}
+```
+
+Outputs `Jon, Jonna`
